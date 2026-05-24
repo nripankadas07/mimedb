@@ -24,6 +24,9 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/nripankadas07/mimedb"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
