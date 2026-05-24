@@ -16,7 +16,7 @@ parsing, and a runtime-extensible registry.
 ## Install
 
 ```bash
-pip install mimedb
+python -m pip install -e .
 ```
 
 ## Quick start
